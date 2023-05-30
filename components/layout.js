@@ -6,7 +6,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const name = 'Mohammed Abdullah';
-export const siteTitle = 'InkFusion';
+export const siteTitle = 'InkFusion Blogs';
 
 export default function Layout({ children, home }) {
     return (
