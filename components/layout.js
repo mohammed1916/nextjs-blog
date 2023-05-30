@@ -4,10 +4,11 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
+import Alert from './Alert';
 
 const name = 'Mohammed Abdullah';
 export const siteTitle = 'InkFusion Blogs';
-
+const errorCode = "error";
 export default function Layout({ children, home }) {
     return (
         <div className={styles.container}>
@@ -38,6 +39,9 @@ export default function Layout({ children, home }) {
                                 width={144}
                                 alt=""
                             />
+                            <Alert type={errorCode}>
+                                <h1>clsx condtional CSS</h1>
+                            </Alert>
                             <h1 className={utilStyles.heading2Xl}>{name}</h1>
                         </>
                     ) : (
