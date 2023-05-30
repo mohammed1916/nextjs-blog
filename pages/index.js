@@ -13,8 +13,8 @@ export default function Home() {
       <section className={utilStyles.headingMd}>
         <p>A website for curious developers</p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          (Find my portfolio over {' '}
+          <a href="https://mohammedabdullah.pages.dev/">here</a>.)
         </p>
       </section>
       <main>
